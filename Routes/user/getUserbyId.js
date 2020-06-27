@@ -3,8 +3,9 @@ const user = require('../../Modals/user')
 module.exports = async (req,res)=>{
   try {
     let userInstance = new user();
-    let data = await userInstance.add(req.body);
-    res.send("sucess")
+    let {userid} = req.body
+    let data = await userInstance.getUserbyId(userid)
+    res.send(data)
   } catch (e) {
     console.log(e);
     res.send(e)
