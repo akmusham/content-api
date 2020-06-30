@@ -1,0 +1,38 @@
+-user
+userid
+email
+username
+age
+sex
+password
+followers
+following
+likes
+profile_url
+
+{
+  "userid": "12341",
+  "email": "ak@gmail.com",
+  "username": "akmusham",
+  "age": 25,
+  "sex": "Male",
+  "profile_url": "",
+  "password": "asdqwer23453twfsdf",
+  "followers": [],
+  "following": [],
+  likes: []
+}
+
+
+-add user (done)
+-add post (done)
+-get public posts (done)
+- get user posts (done)
+- get user following posts (WIP)
+- like a post (done)
+- unline a post (done)
+- comment a post (done)
+- like a comment (done)
+- get user info (done)
+- get by postid (done)
+- edit comment (done)

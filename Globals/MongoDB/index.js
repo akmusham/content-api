@@ -6,7 +6,7 @@ global.connectedEmitter = new eventEmitter()
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
-
+// console.log('process.env.mongodbConnectionurl',process.env.mongodbConnectionurl);
 global.db = mongoose.createConnection(process.env.mongodbConnectionurl,{ useNewUrlParser: true, useUnifiedTopology: true })
 db.on('connected', () => {
   console.log('--------------Connected to DB----------------')

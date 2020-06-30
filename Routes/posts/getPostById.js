@@ -4,7 +4,7 @@ module.exports = async (req,res)=>{
   try {
     let postsInstance = new posts();
     let postId = req.query.id
-    let data = await postsInstance.getPostById(postId);
+    let data = await postsInstance.get(postId);
     res.send(data)
   } catch (e) {
     console.log(e);

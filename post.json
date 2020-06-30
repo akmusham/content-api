@@ -1,0 +1,67 @@
+{
+    "_id" : ObjectId("5efae285c1b56858408ae176"),
+    "tags" : [
+
+    ],
+    "shares" : [
+
+    ],
+    "description" : "speak wisely",
+    "postType" : "public",
+    "postSoundUrl" : "",
+    "postUrl" : "",
+    "comments" : [
+        {
+            "likes" : [
+                {
+                    "postid" : "5efae285c1b56858408ae176",
+                    "commentid" : "5efae2abc1b56858408ae177",
+                    "userid" : "5ef65bd9c0ab1420a493f154",
+                    "dateTime" : "08-06-2020T05:54:21"
+                },
+                {
+                    "postid" : "5efae285c1b56858408ae176",
+                    "commentid" : "5efae2abc1b56858408ae177",
+                    "userid" : "5ef64ecd4ce01f76ec8d797d",
+                    "dateTime" : "08-06-2020T05:54:21"
+                }
+            ],
+            "_id" : ObjectId("5efae2abc1b56858408ae177"),
+            "postid" : ObjectId("5efae285c1b56858408ae176"),
+            "CommentBy" : ObjectId("5ef64ecd4ce01f76ec8d797d"),
+            "Comment" : "awesome pic", 
+            "dateTime" : "22-12-2020T02:03:56",
+            "__v" : NumberInt(0)
+        },
+        {
+            "likes" : [
+
+            ],
+            "_id" : ObjectId("5efae2bbc1b56858408ae179"),
+            "postid" : ObjectId("5efae285c1b56858408ae176"),
+            "CommentBy" : ObjectId("5ef64ecd4ce01f76ec8d797d"),
+            "Comment" : "baby i like it",
+            "dateTime" : "22-12-2020T02:03:56",
+            "__v" : NumberInt(0)
+        }
+    ],
+    "likes" : [
+        {
+            "_id" : ObjectId("5efae2c7c1b56858408ae17b"),
+            "postid" : ObjectId("5efae285c1b56858408ae176"),
+            "userid" : ObjectId("5ef64ecd4ce01f76ec8d797d"),
+            "dateTime" : "08-06-2020T05:54:21",
+            "__v" : NumberInt(0)
+        },
+        {
+            "_id" : ObjectId("5efae2d7c1b56858408ae17d"),
+            "postid" : ObjectId("5efae285c1b56858408ae176"),
+            "userid" : ObjectId("5ef65bd9c0ab1420a493f154"),
+            "dateTime" : "08-06-2020T05:54:21",
+            "__v" : NumberInt(0)
+        }
+    ],
+    "postedBy" : ObjectId("5ef64ecd4ce01f76ec8d797d"),
+    "postThumbline" : "",
+    "__v" : NumberInt(0)
+}

@@ -1,7 +1,9 @@
 module.exports = function (payload) {
   return (async () => {
     try {
-      let data = await db.models.posts.findOneAndUpdate({ '_id': req.body.postid } , { "$push": { "likes": newlike } }, { 'new': true })
+      console.log(payload);
+      let data = await db.models.posts.find({"postedBy": payload});
+      console.log(data);
       return data;
     } catch (e) {
       throw e
